@@ -1,0 +1,154 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Sevillana&display=swap" rel="stylesheet">
+
+	<title>website</title>
+</head>
+
+<body>
+
+	<div class="header">
+
+		<div class="conteiner">
+			<div class="header-line">
+
+				<div class="nav">
+
+<a class="nav-item" href="{% url 'home' %}">Главная</a>
+                    <a class="nav-item" href="{% url 'menu' %}">Меню</a>
+                    <a class="nav-item" href="https://2gis.kg/bishkek/geo/70030076130183163">Наш адрес</a>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="header-down">
+			<div class="header-title">
+				Добро пожаловать в
+				<div class="subtitle">
+					Red &White
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+	<div class="cards">
+		<div class="conteiner">
+			<div class="card-holder">
+				<div class="card">
+					<div class="card-image">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlf9Z-Ub3D6nw3hIoOQQyk_sQGv1j2kAt8dw&s" height="100px"
+							width="100px" alt="">
+					</div>
+					<div class="card-title">
+						Ночной эликсир
+					</div>
+					<div class="card-desc">
+						В винобаре, где смешиваются вина,
+Ночью волшебство пробуждается вновь.
+Свет свечей играет в темноте ночной,
+А в бокалах тайны сияют луной.
+					</div>
+				</div>
+				<div class="card">
+
+					<div class="card-image">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs64INDlxlQw419uOyxeaT-YxdfPLrEFOXqQ&s" height="100px"
+							width="100px" alt="">
+					</div>
+					<div class="card-title">
+						<span>Red &White</span>
+					</div>
+					<div class="card-desc">
+						Как звезды на небе, красное и белое,
+В бокале — встречаются два мира.
+Красное, горячее, словно пылающий закат,
+Белое, легкое, словно первый рассвет.
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlAzlVhz9BvNMHH4hym3BNAlFJvmHMBn3FqmGcOaeYO_z5WVQOcTpLa8vV0n0QXf5o_Nc&usqp=CAU" height="100px"
+							width="100px" alt="">
+					</div>
+					<div class="card-title">
+						Дневной эликсир
+					</div>
+					<div class="card-desc">
+						Дневной свет в винобаре, как золото,
+В бокалах танцуют игристые вина.
+Ароматы ягод и свежескошенной травы,
+Дневной эликсир, что расслабит тебя.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="history">
+		<div class="conteiner">
+			<div class="history-holder">
+				<div class="history-info">
+					<div class="history-title">
+						Добро пожаловать в <span>Red & White</span>
+					</div>
+					<div class="history-desc">
+						идеальное место для тех, кто ценит
+						качественный отдых и атмосферу уюта.
+						Наш бар сочетает в себе лучшие традиции
+						классического и современного подхода к гостеприимству.<p>Почему Red & White?</p>
+						<div class="history-text">
+							<li><span>Уникальный интерьер:</span> Вдохновленный стильной элегантностью красного и белого
+								цветов,
+								наш интерьер создает неповторимую атмосферу, где каждый гость чувствует себя особенным.
+							</li>
+							<li><span>Богатый ассортимент напитков:</span> Мы предлагаем широкий выбор коктейлей, вин и
+								крепких
+								напитков со всего мира. Наши опытные бармены с радостью подберут напиток по вашему
+								вкусу.</li>
+							<li><span>Живая музыка и мероприятия:</span> Каждую неделю мы устраиваем живые выступления
+								музыкантов, тематические вечеринки и специальные мероприятия. Следите за нашим
+								расписанием,
+								чтобы не пропустить самое интересное</li>!
+							<li><span>Уютная атмосфера:</span> В span Red & White каждый найдет место по душе — будь то
+								барная
+								стойка, уютный диван или столик в уголке.</li>
+						</div>
+						<div class="history-images">
+							<img class="images1" src="https://amiel.club/uploads/posts/2022-03/1647531274_1-amiel-club-p-kartinki-bara-1.jpg" width="300" height="200" alt="">
+							<img class="images2"src="https://media-cdn.tripadvisor.com/media/photo-s/1d/7b/97/88/caption.jpg" width="300" height="200"alt="">
+							<img class="images3"src="https://media-cdn.tripadvisor.com/media/photo-s/0d/6a/4a/bd/caption.jpg" width="300" height="200"alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="end">
+		<div class="end-image">
+
+		<div class="end-title">
+			<a class="end-item" href="https://wa.me/message/ZIPTITKAYRI7N1">Whatsapp</a>
+			<a class="end-item" href="https://www.instagram.com/erg__1?igsh=enZudGlvcnVwcjh0">Instagram</a>
+			<a class="end-item" href="https://www.tiktok.com/@aminqwlx?_t=8mwoXznDSHy&_r=1">Tik-Tok</a>
+			<a class="end-item" href="https://2gis.kg/bishkek/geo/70030076130183163">Мы на карте</a>
+			<a class="end-item" href="https://anaraincruisescom.taplink.ws/?fbclid=PAZXh0bgNhZW0CMTEAAaZuqngIisVP-JGfKlCH-W14xXJ23fIhOuLx7pkwH0L3fcCvqhSfUR91ElA_aem_AUYGrR4YZd_dTNEnkOr8bEffsVJP8wpH402eU5TZsmV2Dt2s5l0qIFxgswURfV7io1DGe4yL6gBaTNFVF8shmAqJ">Номер для брони</a>
+
+		</div>
+	</div>
+	</div>
+</body>
+
+</html>
